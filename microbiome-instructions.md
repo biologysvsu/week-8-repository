@@ -293,7 +293,7 @@ qiime feature-table summarize \
 ```
 ln -s /ocean/projects/bio260081p/shared/week-7-data/taxa .
 ```
-2. Run taxonomic classification (Homework)
+2. Run taxonomic classification (DO NOT RUN THIS)
 ```         
 qiime feature-classifier classify-sklearn \
   --i-classifier /ocean/projects/bio260081p/shared/week-7-data/SILVA_144_SSURef_NR99_weighted_classifier_full-length_plant-rhizosphere.qza \
