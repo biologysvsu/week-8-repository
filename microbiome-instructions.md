@@ -405,6 +405,8 @@ qiime diversity core-metrics-phylogenetic \
   --p-n-jobs-or-threads 4 \
   --output-dir diversity
 ```
+
+--P-SAMPLING DEPTH OF 4500 IS THE MINIMUM DEPTH IN THIS DATASET. EXPECT IT TO CHANGE WITH DIFFERENT DATASETS
 3. Produce boxplot for shannon
 ```         
 qiime diversity alpha-group-significance \
