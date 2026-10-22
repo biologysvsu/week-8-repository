@@ -383,6 +383,14 @@ qiime diversity alpha-rarefaction \
   --i-phylogeny asvs-tree.qza \
   --o-visualization rarefaction_curves.qzv
 ```
+```
+qiime diversity alpha-rarefaction \
+  --i-table deblur_output/deblur_table_final.qza \
+  --p-max-depth 4500 \
+  --p-steps 20 \
+  --i-phylogeny asvs-tree.qza \
+  --o-visualization rarefaction_curves.qzv
+```
 
 replace X with minimum frequency per sample 4500(?)
 - Answer question 17
