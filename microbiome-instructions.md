@@ -400,7 +400,7 @@ replace X with minimum frequency per sample 4500(?)
 qiime diversity core-metrics-phylogenetic \
   --i-table deblur_output/deblur_table_final.qza \
   --i-phylogeny asvs-tree.qza \
-  --p-sampling-depth X  \
+  --p-sampling-depth 4500  \
   --m-metadata-file Blueberry_metadata_reduced.tsv \
   --p-n-jobs-or-threads 4 \
   --output-dir diversity
