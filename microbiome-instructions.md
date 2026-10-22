@@ -420,6 +420,6 @@ qiime taxa barplot \
   --i-table deblur_output/deblur_table_final.qza \
   --i-taxonomy taxa/classification.qza \
   --m-metadata-file Blueberry_metadata_reduced.tsv \
-  --o-visualization taxa/taxa_barplot.qzv
+  --o-visualization taxa_barplot.qzv
 ```
 
